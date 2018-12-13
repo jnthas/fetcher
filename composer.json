@@ -1,0 +1,23 @@
+{
+    "name": "jnthas/fetcher",
+    "description": "An engine to fetch data from some source",
+    "type": "project",
+    "require": {
+        "j7mbo/twitter-api-php": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Jonathas Barbosa",
+            "email": "jnthas@gmail.com"
+        }
+    ],    
+    "autoload": {
+        "psr-0": {
+            "Fetcher": "src/"
+        }
+    },
+    "scripts": {
+        "test": "php tests/FetcherTest.php",
+        "run": "php src/Fetcher.php"
+    }
+}
