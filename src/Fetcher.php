@@ -1,8 +1,6 @@
 <?php
-
-require_once __DIR__ . '/../vendor/autoload.php';
 require 'TwitterSource.php';
-
+  
 // GET fetcher?source=twitter&hashtags=tech,food&users=g1&num=3
 
 class Fetcher {

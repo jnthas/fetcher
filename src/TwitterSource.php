@@ -1,6 +1,4 @@
 <?php 
-
-
 class TwitterSource {
 
     public function fetch($hashtags, $users, $count) {
@@ -10,8 +8,6 @@ class TwitterSource {
         $url = "https://api.twitter.com/1.1/statuses/user_timeline.json";
         $requestMethod = "GET";
         
-        ///echo 'Fetching ' . $count . ' tweets from ' . $users;
-
         $getfield = '?screen_name=' . $users . '&count=' . $count;
 
         $twitter = new TwitterAPIExchange($settings);
